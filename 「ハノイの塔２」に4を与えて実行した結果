@@ -1,0 +1,23 @@
+ from=a to=c free=b
+ from=a to=b free=c
+ from=a to=c free=b
+Move disk 1 from a to b . 
+Move disk 2 from a to c . 
+Move disk 1 from b to c . 
+Move disk 3 from a to b . 
+ from=c to=b free=a
+Move disk 1 from c to a . 
+Move disk 2 from c to b . 
+Move disk 1 from a to b . 
+Move disk 4 from a to c . 
+ from=b to=c free=a
+ from=b to=a free=c
+Move disk 1 from b to c . 
+Move disk 2 from b to a . 
+Move disk 1 from c to a . 
+Move disk 3 from b to c . 
+ from=a to=c free=b
+Move disk 1 from a to b . 
+Move disk 2 from a to c . 
+Move disk 1 from b to c . 
+#<undef>
